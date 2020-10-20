@@ -1,0 +1,29 @@
+Centralidade e Variabilidade
+
+-	Média
+	Quando calculamos, na formula, se aparecer N maiusculo, refere-se a população. Se for n minusculo, refere-se a amostra da população.
+	Média ponderada(notas e pesos)
+
+
+-	Moda
+	O valor mais comum, o valor que mais ocorre.
+	Um conjunto de dados pode ter mais de uma moda.
+
+-	Mediana
+	O valor do meio de valores ordenados. Se a quantidade de elementos for par, mediana é a média dos valores na posição n/2 e (n+1)/2.
+
+********************************************************************************************
+
+Variância
+Variancia e desvio padrão mostram a regularidade dos dados. Ou seja, como os dados variam com relação a média. é uma relação dos dados entre si.
+
+Desvio padrão
+Sua formula é a raiz quadrada da variancia
+
+Amplitude
+Diferença entre o maior e o menor valor
+
+Quartis
+Q1 : 25% dos menores valore
+Q2: 50% (equivale a mediana)
+Q3: 75% dos maiores valores

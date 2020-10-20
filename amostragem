@@ -1,0 +1,25 @@
+Amostragem
+
+Parte de uma população selecionada utilizando alguma técnica que dê chances iguais a todos os elementos serem selecionados.
+
+
+População: alvo do estudo
+Amostra: subconjunto
+Censo: pesquisa com toda a população
+
+É possivel inferir sobre uma amostra.
+
+Envisesamento - quando subestima ou superestima o parametro de uma população.
+
+*************************************************
+Principais tipos de amostras:
+	-	Aleatória Simples
+		-	com reposição
+		-	sem reposição
+
+	-	Estratificada(religião, nacionalidade)
+
+	-	Sistemática
+		é escolhido um elemento aleatório, a partir daí, a cada N elementos um novo elemento é escolhido
+
+
