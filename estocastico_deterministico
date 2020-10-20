@@ -1,0 +1,9 @@
+Estocástico x Determinístico
+
+Estocástico:
+	Dada uma mesma entrada submetida a um algoritmo, a saída pode variar
+	Exemplos Random forest e k-means
+
+Determinístico:
+	Dada uma mesma entrada, apresenta sempre a mesma saída.
+

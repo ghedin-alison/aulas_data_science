@@ -1,0 +1,67 @@
+Probabilidade
+
+
+Probabilidade P: 0 <= P <= 1
+onde P = 0 evento impossivel, P = 1 é evento certo
+
+************************************
+Experimento: o que está sendo estudado
+Espaço amostral: odas as possibilidades de ocorrência de evento
+Evento: resultados ocorridos
+
+
+Exemplo:
+Jogar moeda (Experimento)
+Cara ou Coroa(Espaço amostral)
+Coroa(Evento)
+************************************************
+Eventos excludentes
+	- Jogar um dado e dar "um" e par
+
+Eventos não excludentes
+	- Jogar um dado e dar dois e par
+
+
+Eventos dependentes	
+	- A ocorrencia de um, afeta a ocorrencia do proximo.
+
+Eventos independentes
+	- A ocorrência de um não afeta o outro
+
+
+
+Probabilidade = Ocorrencia esperada / Numero de eventos Possiveis
+
+Unico evento
+	Probabilidade de jogar um dado e dar um ou 6:
+		1/6 +(ou) 1/6 = 2/6(1/3)
+	Probabilidade de jogar um dado e dar impar ou maior que 4:
+		(1, 3, 5, 6); P = 4 / 6. Exclui a repetição do 5.
+
+	Eventos excludentes
+	-	Jogar um dado, ser 1 ou par: 1/6 + 3/6 = 4/6
+
+	Eventos não excludentes
+	Soma-se as probabilidades, diminui-se as sobreposições
+	-	Jogar um dado e ser 2 ou par(1/6 + 3/6 - 1/6) = 3/6
+
+
+**********
+Eventos independentes
+Mais de um evento, como eles se relacionam? Multiplicação
+
+	Jogar dois dados e dar 1 e 6: dois eventos independentes
+		1/6 (para primeiro experimento)
+		1/6 (para o segundo experimento)
+
+		1/6 * 1/6 = 1/36
+
+Eventos Dependentes
+	Com 5 cartas na mão(A, 2, 3, 4, 5, 6) qual a probabilidade de primeiro evento tirar A e segundo tirar 4:
+		1/6(primeiro evento)
+		1/5(segundo evento)
+		1/6 * 1/5 = 1/30
+
+
+Pequenas amostragens estão sujeitas ao acaso, logo não são confiáveis. Probabilidade de conclusões falsas.
+O ideal são amostragens grandes e de longo prazo.
