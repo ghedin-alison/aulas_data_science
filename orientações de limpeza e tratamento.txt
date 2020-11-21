@@ -1,0 +1,123 @@
+Para valores faltantes:
+	-	Preencher com a mediana para valores numericos
+	- 	Preencher com a moda para valores categóricos
+
+
+Gráficos estáticos:
+	Representação instantâne de um conjunto de dados;
+Dashboards:
+	Conjunto de gráficos em que há uma interatividade;	
+Infográficos:
+	Gráficos mais ricos visualmente.
+
+
+Como e quando trabalhar com Dashboards:
+1 - Comparado ao que?
+2 - Bom ou ruim?
+3 - Métricas corretas
+4 - Tema
+5 - Tamanho e resolução
+6 - Melhores e piores
+7 - Excesso ou falta de níveis
+8 - Proporção
+
+Formas de organizar a informação:
+	- localização
+	- alfabeticamente
+	- tempo
+	- categoria
+	- hierarquia	
+
+
+Proporção
+
+
+Efeito 	|
+		|
+		|
+		|
+		|
+		|
+		|
+		|
+		|
+		|
+		|
+		|_____________________________________________________
+			Causa(1.6x)
+
+
+ACCENT
+A(Apprehension - Percepção)
+C(Clarity - clareza)
+C(Consistency- consistencia)
+E(Eficiency- eficiencia)
+N(Necessity - necessidade)
+T(Truthfulness - veracidade)
+
+Dashboards com no maximo 5 elementos por visualização.
+
+
+
+
+Que gráfico utilizar?
+	Gráfcos de barras:
+		-	Quando possuimos dados discretos, para comparar diferentes séries, categorias
+		-	Quando possui poucas categorias, utilizar gráfico na vertical, senão, horizontal
+
+	Gráficos de linha:
+		-	Dados contínuos, evolução, séries temporais, com tempo no eixo horizontal, dimensões no vertical.
+		-	Suporta várias categorias
+
+	Gráficos de setores:
+		-	Comparar categorias, quando poucas.
+
+	Gráficos de Dispersão:
+		-	Comparar a relação entre duas variáveis, dois valores continuos
+		- 	Buble chart(terceira dimensão no gráfico)
+
+
+	Para distribuição dos dados:
+
+		- Histograma
+			Quando se tem apenas uma variável continuas e se quer analisar a distribuição(em anos, por exemplo)
+			Como trabalhar:
+				# Importação das bibliotecas
+				  import pandas as pd # biblioteca para tratamento de dados
+				  import numpy as np  # biblioteca cientifica
+				  import matplotlib.pyplot as plt #biblioteca para geração de gráficos
+
+
+
+
+		- Boxplot
+			Quando se tem apenas uma várias variáveis continuas e se quer analisar a distribuição
+				(mostra os quantis, superior, inferior, quartis, mediana)
+				Utilizado para exibir variação de uma bolsa de valores
+		
+		- Hitmap
+			Quando comparamos duas variáveis categóricas
+
+
+		- Treemap
+			Também para comparar variaveis categoricas
+			representar a área dos estados de um país, por exemplo.
+
+
+Utilizar o checklist da aula 65.
+	Dá pra fazer esse checklist via django e sempre utilizar em cada projeto.
+
+
+Um dashboard deve tratar de assuntos especificos:
+	por exemplo, um sobre dados economicos, outro sobre taxas de ocupação de um hotel. Não misturar informações que não tenham relação.
+
+Pesquisar ugly charts, para saber o que não fazer em gráficos e dashboards
+
+Referências para estudo:
+	Visual display of Quantitative Information(Eduard Tufte)
+	Information Dashboard Design(Stephen Few)
+	Design Data Visualization(Julie Steele) *** ler assim que puder, tem só 115 páginas.
+
+
+
+
