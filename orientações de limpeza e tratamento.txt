@@ -73,22 +73,39 @@ Que gráfico utilizar?
 		-	Comparar categorias, quando poucas.
 
 	Gráficos de Dispersão:
-		-	Comparar a relação entre duas variáveis, dois valores continuos
+		-	Comparar a relação entre duas variáveis, dois valores continuos(por exemplo: área x circunferencia, volume x circunferencia)
+		# importando as bibliotecas
+			import pandas as pd
+			import seaborn as sb
+			import matplotlib.pyplot as plt
+
+				# Gráfico de dispersão considerando o volume e a circunferência
+				plt.scatter(base.Girth, base.Volume, color = 'blue', facecolors = 'none', marker = '*')
+				plt.title('Árvores')
+				plt.xlabel('Volume')
+				plt.ylabel('Circunferência')
+
 		- 	Buble chart(terceira dimensão no gráfico)
+
+
 
 
 	Para distribuição dos dados:
 
 		- Histograma
-			Quando se tem apenas uma variável continuas e se quer analisar a distribuição(em anos, por exemplo)
+		A função de um histograma é mostrar a distribuição de dados
+			Quando se tem apenas uma variável continua e se quer analisar a distribuição(em anos, por exemplo)
 			Como trabalhar:
 				# Importação das bibliotecas
 				  import pandas as pd # biblioteca para tratamento de dados
 				  import numpy as np  # biblioteca cientifica
 				  import matplotlib.pyplot as plt #biblioteca para geração de gráficos
 
-
-
+				# Se quiser a linha de densidade, utilizar o seaborn e kde = True:
+					sb.distplot(base.iloc[:, 1], hist = True, kde = False,
+           						bins = 6, color = 'green', 
+           						hist_kws = {'edgecolor' : 'black'})
+					
 
 		- Boxplot
 			Quando se tem apenas uma várias variáveis continuas e se quer analisar a distribuição
