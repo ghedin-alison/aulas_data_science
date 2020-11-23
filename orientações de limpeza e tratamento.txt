@@ -133,7 +133,7 @@ Que gráfico utilizar?
 
 Utilizar o checklist da aula 65.
 	Dá pra fazer esse checklist via django e sempre utilizar em cada projeto.
-
+	Uma boa estrategia é utilizar o matplotli e a seaborn para criar bons gráficos. Então é legal estudar as duas bibliotecas.
 
 Um dashboard deve tratar de assuntos especificos:
 	por exemplo, um sobre dados economicos, outro sobre taxas de ocupação de um hotel. Não misturar informações que não tenham relação.
