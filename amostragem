@@ -17,11 +17,34 @@ Principais tipos de amostras:
 		-	com reposição(uma pessoa que é selecionada para testar uma vacina. pode ser selecionada novamente, 
             pq pode pegar a doença novamente, exame antidoping)
 		-	sem reposição(pesquisa de inteção de voto. Não tem porque coletar novamente a opinião de uma pessoa)
+        
+        importar as bibliotecas pandas e numpy
+        amostra = np.random.choice(a = [0, 1], size = 150, replace = True, p = [0.7, 0.3]) >> gerar array com zeros e um
+        depois fazer batimento da array gerada com a base que deve ter a amostra gerada(verificar o exercicio)
+        
 
 	-	Estratificada(religião, nacionalidade, idade)
+
+        importar pandas e a funcao train_test_split do sklearn
+        X, _, Y, _ = train_test_split(base.iloc[:, 0:4], base.iloc[:, 4], test_size = 0.5, stratify = base.iloc[:,4])
 
 	-	Sistemática
 		é escolhido um elemento aleatório, a partir daí, a cada N elementos um novo elemento é escolhido.
         Utilizar quando não se sabe o numero total de elementos de uma população
+        importar pandas, numpy e a funcao ceil da biblioteca math
+        gerar um array com os valores da amostra sistematica e locar(bater) com a base
 
+Utilizamos pandas e numpy:
+
+# Mudança da semente aleatoria randomica para manter e reproduzir os resultados em varias execuções
+>> np.random.seed(2345)
+# 150 amostras, de 0 a 1, com reposição, probabilidades equivalentes
+# a é espaço amostral que será criado, zeros e 1
+# size tem q coincidir com a quantidade de linhas que se quer trabalhar na base inicial
+# replace = True porque tem que gerar vários 0 e 1
+# p são probabilidades para os elementos gerados, nesse caso 0 tem 70% e 1 tem 30%
+>> amostra = np.random.choice(a = [0, 1], size = 150, replace = True, p = [0.7, 0.3])
+
+verifica a amostragem de final 0
+base_final_0 = base.loc[amostra == 0]
 

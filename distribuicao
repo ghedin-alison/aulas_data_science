@@ -52,7 +52,11 @@ Distribuição normal Padrão(Z)
     p > 0,05 não é possível rejeitar a hipotese nula(normalmente distribuidos)
     alfa = 0,05 representa o nivel de significancia do seu teste
     
-    
+
+Utilizar a função norm da biblioteca scipy.stats
+norm.cdf => para probabilidades "menor que"
+norm.sf => para probabilidades "maior que"
+
     
     
 Teorema cental do limite
