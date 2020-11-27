@@ -13,4 +13,5 @@
  
     Podemos calcular de forma acumluativa ou pontual
  
-     
+    `from scipy.stats import poisson     
+        poisson.pmf(3, 2)`

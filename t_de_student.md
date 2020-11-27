@@ -26,3 +26,15 @@ Como usar:
         - Variável normalmente distribuida
         - Variância entre as duas variáveis é aproximada
     - H0: Não há diferença significativa
+    
+    
+[Tabela T de student](http://www.ttable.org/)
+##### Utilizar a tabela quando não tiver acesso ao python, a coluna da esquerda são os graus de liberdade. E com base no calculo de t,
+##### verifica onde o valor de T se encaixa no cruzamento com graus de liberdade
+
+
+`from scipy.stats import t
+ t.cdf(1.5, 8)`
+##### O valor 1.5 vem do calculo t = (X - x)/(S/sqrt(n), onde X = 80, x = 75, S = 10 e n = 9)
+##### O valor 8 vem dos graus de liberdade que é (n - 1)           
+ 
