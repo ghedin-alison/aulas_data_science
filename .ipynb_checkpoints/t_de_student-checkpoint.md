@@ -9,5 +9,20 @@ Pode ser usada para:
     - Calcular probabilidades
     - Calcular intervalos de confiança
     - Executar testes de hipotese
+    
+    
+Como usar:
+ - Calcula o valor de t.(n -1)
+ - Consultamos a tabela de distribuição T.
+ 
+ 
+ 
    
-   
+## Teste de T de student
+    - Teste de hipotese
+    - Compara duas médias
+    - Pré-requisistos:
+        - Duas populações são independentes
+        - Variável normalmente distribuida
+        - Variância entre as duas variáveis é aproximada
+    - H0: Não há diferença significativa

@@ -18,4 +18,11 @@ Como usar:
  
  
    
-   
+## Teste de T de student
+    - Teste de hipotese
+    - Compara duas médias
+    - Pré-requisistos:
+        - Duas populações são independentes
+        - Variável normalmente distribuida
+        - Variância entre as duas variáveis é aproximada
+    - H0: Não há diferença significativa
