@@ -30,6 +30,7 @@
 - $ P = b + mv $ , onde b: interceptação , m: inclinação, v: variavel independente
 
 #### No Jupyter:
+`previsoes = modelo.predict(x)`
 `modelo.predict([[22]])`
 
 
