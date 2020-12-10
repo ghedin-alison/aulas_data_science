@@ -17,7 +17,7 @@
      
      
 ## Porque analisar séries temporais?
- - Explicação/ Compreensão de caracteristicas importantes
+ - Explicação/ Compreensão de caracteristicas importantes(tendencias/sazonalidades)
  - Previsão
  - Controle
  
@@ -34,10 +34,11 @@
  
  
 ## Tipos de séries temporais
+#### Características:
  - Estacionárias - flutuam em torno de uma mesma média e variância
  - Não estacionárias
  
  - Estocásticas - fórmula + fator aleatório que não pode ser explicado. Maioria dos casos
- - Deterministicas - explicadas através de uma fórmula/função(técnicas de forcast)
+ - Deterministicas - explicadas através de uma fórmula/função(técnicas de forecast - prever o comportamento de series temporais pra frente)
  
  
