@@ -6,7 +6,7 @@
  
 ## Generalização versus Super ajuste versus sub ajuste
  - O objetivo de todo classificador é criar modelos genéricos
- - O modelo super ajustado funciona bem com dados de treino. Mas dessmpenho pobre em dados de teste ou de produção
+ - O modelo super ajustado funciona bem com dados de treino. Mas desempenho pobre em dados de teste ou de produção
  - O modelo sub ajustado não consegue boas taxas de previsão. Ele não foi capaz de capturar as características do negócio para o modelo.
 
 

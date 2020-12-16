@@ -12,7 +12,7 @@
 - Os dados são agrupados de acordo com caracteristicas em comum. Definido por um agrupador(algoritmo de agrupamento).
 - Não existe classe
 - O objetivo é criar grupos e atribuir às instancias dos dados nestes grupos, a partir das características, ou atributos dessas instâncias
-- Exemplos de uso: identificar gurpos de clientes e direcionar campanhas de marketing específicas; identificar tentativas de acesso a rede; categorizar uma nova espécie.
+- Exemplos de uso: identificar grupos de clientes e direcionar campanhas de marketing específicas; identificar tentativas de acesso a rede; categorizar uma nova espécie.
 
 ## Regras de Associação
  - Oferta de produtos baseado no historico de compras do produto
