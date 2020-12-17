@@ -38,6 +38,16 @@
  - FP(Falsos positivos)
  - FN(Falsos negativos)
  
+
+
+## Matriz de confusão
+ 
+ 
+ | Positivos | Negativos |
+ | --------- | --------- |
+ | Verdadeiro Positivo | Falso Negativo |
+ | Falso Positivo | Verdadeiro Negativo |
+ 
  
  
  

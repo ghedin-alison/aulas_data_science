@@ -40,6 +40,13 @@
  
  
  
+ | Positivos | Negativos |
+ | --------- | --------- |
+ | Verdadeiro Positivo | Falso Negativo |
+ | Falso Positivo | Verdadeiro Negativo |
+ 
+ 
+ 
  
  
  
