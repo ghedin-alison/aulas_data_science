@@ -8,3 +8,5 @@
  - Sigmoid
  - Relu (Rectified Linear Unit)
  - Ranh (Hyperbolic Tangent Activation Function)
+ 
+ 
