@@ -7,14 +7,14 @@
  
 ### Algoritmo de Dijkstra
  - Calcula o custo mínimo para todos os vértices
- - Complexidade aumense se:
+ - Complexidade aumenta se:
   - É obrigado a passar por alguns vértices
   - É obrigado a evitar alguns vértices
   
   
 ## Caminho Euleriano
  - Grafo em que cada aresta é visitada uma única vez
- - Circuito Eueriano: caminho euleriano que começa e termina no mesmo vértice
+ - Circuito Euleriano: caminho euleriano que começa e termina no mesmo vértice
  
 ## Grafos Eulerianos
  - Todos os vértices precisam ser de grau par

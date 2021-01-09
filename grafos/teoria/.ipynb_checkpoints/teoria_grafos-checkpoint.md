@@ -8,7 +8,7 @@
  - Achar rotas
  - Tráfego de redes
  - Prever disseminação de doenças
- - Lingustica e processamento de linguagem natural
+ - Linguistica e processamento de linguagem natural
  - Estudo de moléculas
  - Análise de redes sociais:
   - Recrutar e reter talentos
@@ -17,7 +17,7 @@
   - Monitorar e melhorar a satisfação de clientes
   - Acompanhar concorrentes
   - Buscar novas oportunidades de negócios
-  - Estabelecer canais de relacinamento com clientes
+  - Estabelecer canais de relacionamento com clientes
 
 
 ## Definição
@@ -81,7 +81,7 @@
  - Um nó é acessível se houver um caminho até ele
 
 ## Centralidade
- - Mede a importância do nó. Quanto mais conectado, mais centralizado ele é. As vezes um ó não tão centralizado pode ser mais importante devido as ligações que ele faz.
+ - Mede a importância do nó. Quanto mais conectado, mais centralizado ele é. As vezes um nó não tão centralizado pode ser mais importante devido as ligações que ele faz.
 
 ## Coesão
  - Mede quantos nós se desligados descontectam a rede
